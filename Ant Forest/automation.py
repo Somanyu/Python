@@ -1,9 +1,9 @@
 import os
-import datetime
+import datetime as dt 
 from threading import Timer, Thread
 
 def automation():
-    now = datetime.datetime.now()
+    now = dt.datetime.now()
     hour = now.hour
     minute = now.minute
     second = now.second
